@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aabha Chaudhari | AI & Machine Learning Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F6F8FC;--surface:#fff;--ink:#0F1B33;--muted:#5B6780;--line:#DFE5F0;--accent:#2F5BEA;--accent2:#0FA596;--tint:#E9EFFD;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0B1220;--surface:#121B2E;--ink:#EAF0FF;--muted:#9AA8C4;--line:#233150;--accent:#7C9BFF;--accent2:#3DD6C4;--tint:#18274A}}
+:root[data-theme="dark"]{--bg:#0B1220;--surface:#121B2E;--ink:#EAF0FF;--muted:#9AA8C4;--line:#233150;--accent:#7C9BFF;--accent2:#3DD6C4;--tint:#18274A}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:calc(72px + env(safe-area-inset-top,0px))}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.65 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:Sora,Inter,sans-serif;line-height:1.15;margin:0;letter-spacing:-.02em}
+a{color:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:6px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:color-mix(in srgb,var(--bg) 85%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+nav b{font-family:Sora;font-size:18px}
+nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0;overflow-x:auto}
+nav ul a{text-decoration:none;color:var(--muted);font-size:15px;font-weight:500;white-space:nowrap;transition:color .2s}
+nav ul a:hover{color:var(--accent)}
+@media(max-width:720px){nav ul li:nth-child(n+4){display:none}}
+#hero{position:relative;padding:96px 0 88px;overflow:hidden}
+#net{position:absolute;inset:0;width:100%;height:100%;z-index:0}
+#hero .wrap{position:relative;z-index:1}
+.hi{color:var(--accent);font-weight:600;margin:0 0 14px}
+h1{font-size:clamp(40px,7vw,76px);max-width:14ch}
+.role{font-family:Sora;font-size:clamp(20px,3vw,28px);margin:20px 0 0;color:var(--muted);min-height:1.4em}
+.role span{color:var(--accent2)}
+.caret{display:inline-block;width:2px;height:1em;background:var(--accent2);margin-left:3px;vertical-align:-2px;animation:blink 1s steps(2) infinite}
+@keyframes blink{50%{opacity:0}}
+.lede{max-width:58ch;color:var(--muted);margin:22px 0 32px}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-block;padding:12px 22px;border-radius:999px;font-weight:600;text-decoration:none;border:1.5px solid var(--line);background:var(--surface);transition:transform .2s,box-shadow .2s,border-color .2s}
+.btn:hover{transform:translateY(-2px);border-color:var(--accent);box-shadow:0 8px 20px -8px var(--accent)}
+.btn.p{background:var(--accent);border-color:var(--accent);color:#fff}
+:root[data-theme="dark"] .btn.p{color:#0B1220}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .btn.p{color:#0B1220}}
+section{padding:72px 0}
+section+section{border-top:1px solid var(--line)}
+h2{font-size:clamp(28px,4vw,40px);margin-bottom:34px}
+.split{display:grid;grid-template-columns:1.3fr 1fr;gap:48px}
+@media(max-width:820px){.split{grid-template-columns:1fr;gap:32px}}
+.split p{margin:0 0 16px;max-width:62ch}
+.edu{display:grid;gap:18px}
+.edu div{padding-left:16px;border-left:3px solid var(--accent)}
+.edu strong{display:block;font-family:Sora;font-size:16px}
+.edu small,.meta{color:var(--muted);font-size:14.5px}
+.tl{position:relative;display:grid;gap:36px;padding-left:28px}
+.tl::before{content:"";position:absolute;left:5px;top:6px;bottom:6px;width:2px;background:var(--line)}
+.tl>article{position:relative}
+.tl>article::before{content:"";position:absolute;left:-28px;top:8px;width:12px;height:12px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 5px var(--tint)}
+h3{font-size:21px}
+.tl ul,.card ul{margin:12px 0 0;padding-left:20px}
+.tl li,.card li{margin-bottom:6px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:20px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:26px;transition:transform .25s,box-shadow .25s,border-color .25s;display:flex;flex-direction:column}
+.card:hover{transform:translateY(-6px);border-color:var(--accent);box-shadow:0 18px 34px -18px var(--accent)}
+.card h3{margin-bottom:10px}
+.card p{margin:0 0 8px;color:var(--muted);font-size:15.5px}
+.card p b{color:var(--ink);font-weight:600}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto;padding-top:16px}
+.tags span,.chips span{background:var(--tint);color:var(--accent);padding:4px 12px;border-radius:999px;font-size:13.5px;font-weight:600}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:28px}
+.skills h3{font-size:17px;margin-bottom:14px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips span{background:var(--surface);color:var(--ink);border:1px solid var(--line);font-weight:500;transition:border-color .2s,color .2s}
+.chips span:hover{border-color:var(--accent);color:var(--accent)}
+.certs{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+.cert{display:flex;justify-content:space-between;gap:16px;align-items:baseline;padding:16px 18px;background:var(--surface);border:1px solid var(--line);border-radius:12px;transition:border-color .2s}
+.cert:hover{border-color:var(--accent2)}
+.cert strong{font-weight:600;font-size:15.5px;line-height:1.4}
+.cert small{color:var(--muted);white-space:nowrap;font-size:13.5px;text-align:right}
+.cert em{display:block;font-style:normal;color:var(--muted);font-size:13.5px}
+.group{margin:34px 0 14px;font-size:18px}
+#contact{text-align:center}
+#contact h2{margin-bottom:14px}
+#contact p{color:var(--muted);max-width:50ch;margin:0 auto 28px}
+#contact .btns{justify-content:center}
+footer{padding:28px 0;text-align:center;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
+#theme{background:none;border:1.5px solid var(--line);color:var(--ink);border-radius:999px;padding:6px 14px;font:500 14px Inter;cursor:pointer;margin-left:14px}
+.rv{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}
+.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}.caret{animation:none}html{scroll-behavior:auto}.card,.btn{transition:none}}
+</style>
+</head>
+<body>
+<nav><div class="wrap"><b>AC</b>
+<div style="display:flex;align-items:center"><ul>
+<li><a href="#about">About</a></li><li><a href="#experience">Experience</a></li><li><a href="#projects">Projects</a></li><li><a href="#skills">Skills</a></li><li><a href="#certs">Certifications</a></li><li><a href="#contact">Contact</a></li></ul>
+<button id="theme" aria-label="Toggle theme">Theme</button></div></div></nav>
+
+<header id="hero"><canvas id="net" aria-hidden="true"></canvas>
+<div class="wrap">
+<p class="hi">Hi, I'm</p>
+<h1>Aabha Chaudhari</h1>
+<p class="role" aria-live="polite"><span id="typed"></span><i class="caret"></i></p>
+<p class="lede">Computer Science student at PCCOE Pune who builds chatbots that answer from real data, ML models that predict, and cloud apps that stay online.</p>
+<div class="btns"><a class="btn p" href="#projects">See my projects</a><a class="btn" href="#contact">Get in touch</a></div>
+</div></header>
+
+<section id="about"><div class="wrap split">
+<div class="rv"><h2>About</h2>
+<p>I'm a third-year B.Tech student focused on AI and machine learning. Most recently I interned at NullClass, building a retrieval-augmented chatbot whose knowledge base updates in real time, and a multi-modal chatbot that understands text and images.</p>
+<p>Before that I worked on data science at Prodigy Infotech: cleaning data, exploring it, and tuning scikit-learn models. I also lead content for the OWASP student chapter at my college.</p></div>
+<div class="edu rv"><h2>Education</h2>
+<div><strong>B.Tech, Computer Science & Engineering</strong>Pimpri Chinchwad College of Engineering, Pune<br><small>Aug 2023 – May 2027 · 7.5 CGPA</small></div>
+<div><strong>HSC (12th, Science) · 82%</strong>Shri Shivaji Science College, Amravati<br><small>2021 – 2023</small></div>
+<div><strong>SSC (10th) · 92%</strong>Holy Cross Convent English High School, Amravati<br><small>2021</small></div>
+</div></div></section>
+
+<section id="experience"><div class="wrap"><h2 class="rv">Experience</h2>
+<div class="tl">
+<article class="rv"><h3>AI / Machine Learning Intern</h3><div class="meta">NullClass · Remote · Jan 2026 – Feb 2026</div>
+<ul><li>Built a Retrieval-Augmented Generation (RAG) chatbot with a dynamically updating vector database for real-time knowledge expansion.</li><li>Developed a multi-modal chatbot supporting text and image understanding and generation using Gemini/PaLM APIs.</li></ul></article>
+<article class="rv"><h3>Data Science Intern</h3><div class="meta">Prodigy Infotech · Remote · May 2025 – Jun 2025</div>
+<ul><li>Preprocessed and cleaned data and ran exploratory data analysis in Python.</li><li>Built and evaluated scikit-learn models for regression and classification.</li><li>Improved model performance with feature engineering and hyperparameter tuning.</li></ul></article>
+<article class="rv"><h3>Executive Team Member & Content Head</h3><div class="meta">OWASP Student Chapter, PCCOE · Oct 2024 – May 2025</div>
+<ul><li>Led content strategy and managed technical workshops and cybersecurity events.</li><li>Planned content calendars, coordinated with teams, and ran event promotion.</li></ul></article>
+</div></div></section>
+
+<section id="projects"><div class="wrap"><h2 class="rv">Projects</h2>
+<div class="grid">
+<article class="card rv"><h3>Dynamic Knowledge Base Chatbot</h3>
+<p><b>Problem.</b> Static LLM chatbots can't answer questions about real-time or private data.</p>
+<p><b>Built.</b> A RAG system that retrieves relevant documents through vector search. Tuning chunking and retrieval improved answer relevance by 25%.</p>
+<p><b>Impact.</b> Data-grounded answers with fewer hallucinations.</p>
+<div class="tags"><span>Python</span><span>LangChain</span><span>FAISS</span><span>Chroma</span></div></article>
+<article class="card rv"><h3>Smart Healthcare Expense & Disease Prediction</h3>
+<p><b>Problem.</b> Predicting disease risk and healthcare costs accurately from patient data is hard.</p>
+<p><b>Built.</b> A decision-support app using classification, regression and clustering, with 86%+ accuracy on disease risk classification.</p>
+<p><b>Impact.</b> Lifestyle recommendations and expense forecasts from automated risk assessment.</p>
+<div class="tags"><span>Python</span><span>scikit-learn</span><span>Streamlit</span></div></article>
+<article class="card rv"><h3>Cloud-Hosted Community Notice Board</h3>
+<p><b>Problem.</b> Local communities lack a central, always-available place for digital announcements.</p>
+<p><b>Built.</b> A scalable web app on AWS EC2, with S3 storing media-rich notices at 99.9% data availability.</p>
+<p><b>Impact.</b> Secure, real-time updates and searchable notice history.</p>
+<div class="tags"><span>AWS EC2</span><span>S3</span><span>Flask</span><span>SQLite</span></div></article>
+</div></div></section>
+
+<section id="skills"><div class="wrap"><h2 class="rv">Skills</h2>
+<div class="skills rv">
+<div><h3>Programming & Databases</h3><div class="chips"><span>Python</span><span>SQL</span><span>REST APIs</span><span>JSON</span></div></div>
+<div><h3>Data Science & ML</h3><div class="chips"><span>scikit-learn</span><span>pandas</span><span>NumPy</span><span>EDA</span><span>Feature Engineering</span></div></div>
+<div><h3>AI / LLM</h3><div class="chips"><span>Gemini/PaLM APIs</span><span>LangChain</span><span>RAG</span><span>FAISS</span><span>Chroma</span></div></div>
+<div><h3>Cloud & Tools</h3><div class="chips"><span>AWS (EC2, S3)</span><span>GCP</span><span>Git</span><span>GitHub</span><span>Linux CLI</span></div></div>
+</div></div></section>
+
+<section id="certs"><div class="wrap"><h2 class="rv">Certifications</h2>
+<h3 class="group">Cloud & Data</h3>
+<div class="certs">
+<div class="cert"><strong>AWS Solutions Architecture Job Simulation<em>Forage</em></strong></div>
+<div class="cert"><strong>Google Cloud Data Analytics Certificate</strong></div>
+<div class="cert"><strong>Cloud Technologies<em>Infosys Springboard</em></strong><small>May 2025</small></div>
+<div class="cert"><strong>Learning Microsoft Power BI<em>Infosys Springboard</em></strong><small>May 2025</small></div>
+<div class="cert"><strong>Introduction to Business Intelligence<em>Infosys Springboard</em></strong><small>Jun 2025</small></div>
+<div class="cert"><strong>Big Data Certification<em>Infosys</em></strong></div>
+<div class="cert"><strong>DBMS Certification<em>Infosys</em></strong></div>
+</div>
+<h3 class="group">Machine Learning & Data Science</h3>
+<div class="certs">
+<div class="cert"><strong>Machine Learning A–Z: AI, Python & R<em>Udemy · 43 hours</em></strong><small>May 2025</small></div>
+<div class="cert"><strong>Introduction to Machine Learning<em>NPTEL, IIT Madras · Elite · 60%</em></strong><small>Jul–Sep 2025</small></div>
+<div class="cert"><strong>Data Science<em>NPTEL</em></strong><small>2024</small></div>
+</div>
+<h3 class="group">Software & Security</h3>
+<div class="certs">
+<div class="cert"><strong>Java Spring Framework 6 with Spring Boot 3<em>Udemy · 50.5 hours</em></strong><small>May 2025</small></div>
+<div class="cert"><strong>Build Responsive Real-World Websites with HTML and CSS<em>Udemy · 37.5 hours</em></strong><small>May 2025</small></div>
+<div class="cert"><strong>Ethical Hacking: WhatsApp Extracting and Decrypting<em>Udemy · 43 minutes</em></strong><small>Nov 2024</small></div>
+</div></div></section>
+
+<section id="contact"><div class="wrap rv"><h2>Let's work together</h2>
+<p>I'm open to internships and projects in AI, machine learning and cloud. Send me a message and I'll reply soon.</p>
+<div class="btns"><a class="btn p" href="mailto:aabhachaudhari07@gmail.com">Email me</a><a class="btn" href="https://linkedin.com/in/aabha-chaudhari" target="_blank" rel="noopener">LinkedIn</a><a class="btn" href="https://github.com/aabhachaudhari" target="_blank" rel="noopener">GitHub</a><a class="btn" href="tel:+917058378060">+91 70583 78060</a></div></div></section>
+<footer>© 2026 Aabha Chaudhari · Pune, India</footer>
+
+<script>
+(function(){
+var reduce=matchMedia('(prefers-reduced-motion:reduce)').matches;
+// typed roles
+var roles=['AI / ML Engineer','RAG & LLM Builder','Data Science Enthusiast','Cloud Developer'],t=document.getElementById('typed');
+if(reduce){t.textContent=roles[0]}else{var ri=0,ci=0,del=false;(function tick(){var w=roles[ri];t.textContent=w.slice(0,ci);if(!del&&ci<w.length){ci++;setTimeout(tick,70)}else if(!del){del=true;setTimeout(tick,1400)}else if(ci>0){ci--;setTimeout(tick,35)}else{del=false;ri=(ri+1)%roles.length;setTimeout(tick,300)}})()}
+// scroll reveal
+var els=document.querySelectorAll('.rv');
+if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});els.forEach(function(e){io.observe(e)})}else{els.forEach(function(e){e.classList.add('in')})}
+// theme toggle (per-viewer convenience)
+var root=document.documentElement;
+try{var s=localStorage.getItem('theme');if(s)root.setAttribute('data-theme',s)}catch(e){}
+document.getElementById('theme').onclick=function(){var dark=root.getAttribute('data-theme')?root.getAttribute('data-theme')==='dark':matchMedia('(prefers-color-scheme:dark)').matches;var n=dark?'light':'dark';root.setAttribute('data-theme',n);try{localStorage.setItem('theme',n)}catch(e){}};
+// network canvas: nodes link up near the pointer
+var c=document.getElementById('net'),x=c.getContext('2d'),W,H,P=[],m={x:-999,y:-999};
+function size(){var r=c.getBoundingClientRect(),d=devicePixelRatio||1;W=r.width;H=r.height;c.width=W*d;c.height=H*d;x.setTransform(d,0,0,d,0,0);var n=Math.round(W*H/16000);P=[];for(var i=0;i<n;i++)P.push({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.35,vy:(Math.random()-.5)*.35})}
+size();addEventListener('resize',size);
+c.parentNode.addEventListener('pointermove',function(e){var r=c.getBoundingClientRect();m.x=e.clientX-r.left;m.y=e.clientY-r.top});
+c.parentNode.addEventListener('pointerleave',function(){m.x=m.y=-999});
+function draw(){var cs=getComputedStyle(root),a=cs.getPropertyValue('--accent').trim(),b=cs.getPropertyValue('--accent2').trim();x.clearRect(0,0,W,H);
+P.forEach(function(p,i){if(!reduce){p.x+=p.vx;p.y+=p.vy;if(p.x<0||p.x>W)p.vx*=-1;if(p.y<0||p.y>H)p.vy*=-1}
+x.globalAlpha=.5;x.fillStyle=b;x.beginPath();x.arc(p.x,p.y,2.2,0,7);x.fill();
+for(var j=i+1;j<P.length;j++){var q=P[j],d=Math.hypot(p.x-q.x,p.y-q.y);if(d<120){x.globalAlpha=(1-d/120)*.25;x.strokeStyle=a;x.beginPath();x.moveTo(p.x,p.y);x.lineTo(q.x,q.y);x.stroke()}}
+var dm=Math.hypot(p.x-m.x,p.y-m.y);if(dm<170){x.globalAlpha=(1-dm/170)*.7;x.strokeStyle=b;x.lineWidth=1.4;x.beginPath();x.moveTo(p.x,p.y);x.lineTo(m.x,m.y);x.stroke();x.lineWidth=1}});
+if(!reduce)requestAnimationFrame(draw)}
+draw();
+})();
+</script>
+</body>
+</html>
